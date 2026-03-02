@@ -1,0 +1,25 @@
+create database college;
+use college;
+
+CREATE TABLE class (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    roll_no INT,
+    city VARCHAR(30)
+);
+drop table class;
+insert into class(name,roll_no,city)values('bhavana',101,latur),
+('Neha',102,'mumbai'),
+('Anurag',103,'pune'),
+('Nisha',104,'karjat'),
+('Payal',105,'akola');
+
+
+update class
+set name='Aditya'
+where id=3;
+
+delete from class
+where id=6;
+
+select*from class;
