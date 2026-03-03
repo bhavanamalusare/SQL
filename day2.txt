@@ -1,1 +1,6 @@
-something fhkajsnvjdfghkfhgkjd
+
+select* from class ORDER BY name;
+select*from class limit 3;
+select COUNT(*) from class;
+select sum(id) from class;
+select AVG(name) from class;
